@@ -1,27 +1,24 @@
-# Tippy
-Calculator app
+# Pre-work - *Tippy*
 
-# Pre-work - *Name of App Here*
+**Tippy** is a tip calculator application for iOS.
 
-**Name of your app** is a tip calculator application for iOS.
+Submitted by: **Grigory Rudko**
 
-Submitted by: **Your Name Here**
-
-Time spent: **X** hours spent in total
+Time spent: **0.3** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [YES] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Custom font
-* [ ] UI animations
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [COMING SOON ] Custom font
+* [COMING SOON] UI animations
+* [COMING SOON] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [COMING SOON ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough 
 
@@ -37,7 +34,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [GRIGORY RUDKO]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
