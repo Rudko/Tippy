@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1016FF621D7E015A002A24D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1016FF611D7E015A002A24D4 /* AppDelegate.swift */; };
+		1016FF641D7E015A002A24D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1016FF631D7E015A002A24D4 /* ViewController.swift */; };
+		1016FF671D7E015A002A24D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1016FF651D7E015A002A24D4 /* Main.storyboard */; };
+		1016FF691D7E015A002A24D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1016FF681D7E015A002A24D4 /* Assets.xcassets */; };
+		1016FF6C1D7E015A002A24D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1016FF6A1D7E015A002A24D4 /* LaunchScreen.storyboard */; };
+		1016FF771D7E015A002A24D4 /* testingSnapchatCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1016FF761D7E015A002A24D4 /* testingSnapchatCameraTests.swift */; };
+		1016FF821D7E015A002A24D4 /* testingSnapchatCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1016FF811D7E015A002A24D4 /* testingSnapchatCameraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1016FF731D7E015A002A24D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1016FF561D7E015A002A24D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1016FF5D1D7E015A002A24D4;
+			remoteInfo = testingSnapchatCamera;
+		};
+		1016FF7E1D7E015A002A24D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1016FF561D7E015A002A24D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1016FF5D1D7E015A002A24D4;
+			remoteInfo = testingSnapchatCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1016FF5E1D7E015A002A24D4 /* testingSnapchatCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testingSnapchatCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1016FF611D7E015A002A24D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1016FF631D7E015A002A24D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1016FF661D7E015A002A24D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1016FF681D7E015A002A24D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1016FF6B1D7E015A002A24D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1016FF6D1D7E015A002A24D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1016FF721D7E015A002A24D4 /* testingSnapchatCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingSnapchatCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1016FF761D7E015A002A24D4 /* testingSnapchatCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingSnapchatCameraTests.swift; sourceTree = "<group>"; };
+		1016FF781D7E015A002A24D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1016FF7D1D7E015A002A24D4 /* testingSnapchatCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingSnapchatCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1016FF811D7E015A002A24D4 /* testingSnapchatCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingSnapchatCameraUITests.swift; sourceTree = "<group>"; };
+		1016FF831D7E015A002A24D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1016FF5B1D7E015A002A24D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1016FF6F1D7E015A002A24D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1016FF7A1D7E015A002A24D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1016FF551D7E015A002A24D4 = {
+			isa = PBXGroup;
+			children = (
+				1016FF601D7E015A002A24D4 /* testingSnapchatCamera */,
+				1016FF751D7E015A002A24D4 /* testingSnapchatCameraTests */,
+				1016FF801D7E015A002A24D4 /* testingSnapchatCameraUITests */,
+				1016FF5F1D7E015A002A24D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1016FF5F1D7E015A002A24D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1016FF5E1D7E015A002A24D4 /* testingSnapchatCamera.app */,
+				1016FF721D7E015A002A24D4 /* testingSnapchatCameraTests.xctest */,
+				1016FF7D1D7E015A002A24D4 /* testingSnapchatCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1016FF601D7E015A002A24D4 /* testingSnapchatCamera */ = {
+			isa = PBXGroup;
+			children = (
+				1016FF611D7E015A002A24D4 /* AppDelegate.swift */,
+				1016FF631D7E015A002A24D4 /* ViewController.swift */,
+				1016FF651D7E015A002A24D4 /* Main.storyboard */,
+				1016FF681D7E015A002A24D4 /* Assets.xcassets */,
+				1016FF6A1D7E015A002A24D4 /* LaunchScreen.storyboard */,
+				1016FF6D1D7E015A002A24D4 /* Info.plist */,
+			);
+			path = testingSnapchatCamera;
+			sourceTree = "<group>";
+		};
+		1016FF751D7E015A002A24D4 /* testingSnapchatCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				1016FF761D7E015A002A24D4 /* testingSnapchatCameraTests.swift */,
+				1016FF781D7E015A002A24D4 /* Info.plist */,
+			);
+			path = testingSnapchatCameraTests;
+			sourceTree = "<group>";
+		};
+		1016FF801D7E015A002A24D4 /* testingSnapchatCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1016FF811D7E015A002A24D4 /* testingSnapchatCameraUITests.swift */,
+				1016FF831D7E015A002A24D4 /* Info.plist */,
+			);
+			path = testingSnapchatCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1016FF5D1D7E015A002A24D4 /* testingSnapchatCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1016FF861D7E015A002A24D4 /* Build configuration list for PBXNativeTarget "testingSnapchatCamera" */;
+			buildPhases = (
+				1016FF5A1D7E015A002A24D4 /* Sources */,
+				1016FF5B1D7E015A002A24D4 /* Frameworks */,
+				1016FF5C1D7E015A002A24D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testingSnapchatCamera;
+			productName = testingSnapchatCamera;
+			productReference = 1016FF5E1D7E015A002A24D4 /* testingSnapchatCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1016FF711D7E015A002A24D4 /* testingSnapchatCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1016FF891D7E015A002A24D4 /* Build configuration list for PBXNativeTarget "testingSnapchatCameraTests" */;
+			buildPhases = (
+				1016FF6E1D7E015A002A24D4 /* Sources */,
+				1016FF6F1D7E015A002A24D4 /* Frameworks */,
+				1016FF701D7E015A002A24D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1016FF741D7E015A002A24D4 /* PBXTargetDependency */,
+			);
+			name = testingSnapchatCameraTests;
+			productName = testingSnapchatCameraTests;
+			productReference = 1016FF721D7E015A002A24D4 /* testingSnapchatCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1016FF7C1D7E015A002A24D4 /* testingSnapchatCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1016FF8C1D7E015A002A24D4 /* Build configuration list for PBXNativeTarget "testingSnapchatCameraUITests" */;
+			buildPhases = (
+				1016FF791D7E015A002A24D4 /* Sources */,
+				1016FF7A1D7E015A002A24D4 /* Frameworks */,
+				1016FF7B1D7E015A002A24D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1016FF7F1D7E015A002A24D4 /* PBXTargetDependency */,
+			);
+			name = testingSnapchatCameraUITests;
+			productName = testingSnapchatCameraUITests;
+			productReference = 1016FF7D1D7E015A002A24D4 /* testingSnapchatCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1016FF561D7E015A002A24D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Grigory Rudko";
+				TargetAttributes = {
+					1016FF5D1D7E015A002A24D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1016FF711D7E015A002A24D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1016FF5D1D7E015A002A24D4;
+					};
+					1016FF7C1D7E015A002A24D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1016FF5D1D7E015A002A24D4;
+					};
+				};
+			};
+			buildConfigurationList = 1016FF591D7E015A002A24D4 /* Build configuration list for PBXProject "testingSnapchatCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1016FF551D7E015A002A24D4;
+			productRefGroup = 1016FF5F1D7E015A002A24D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1016FF5D1D7E015A002A24D4 /* testingSnapchatCamera */,
+				1016FF711D7E015A002A24D4 /* testingSnapchatCameraTests */,
+				1016FF7C1D7E015A002A24D4 /* testingSnapchatCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1016FF5C1D7E015A002A24D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1016FF6C1D7E015A002A24D4 /* LaunchScreen.storyboard in Resources */,
+				1016FF691D7E015A002A24D4 /* Assets.xcassets in Resources */,
+				1016FF671D7E015A002A24D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1016FF701D7E015A002A24D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1016FF7B1D7E015A002A24D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1016FF5A1D7E015A002A24D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1016FF641D7E015A002A24D4 /* ViewController.swift in Sources */,
+				1016FF621D7E015A002A24D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1016FF6E1D7E015A002A24D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1016FF771D7E015A002A24D4 /* testingSnapchatCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1016FF791D7E015A002A24D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1016FF821D7E015A002A24D4 /* testingSnapchatCameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1016FF741D7E015A002A24D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1016FF5D1D7E015A002A24D4 /* testingSnapchatCamera */;
+			targetProxy = 1016FF731D7E015A002A24D4 /* PBXContainerItemProxy */;
+		};
+		1016FF7F1D7E015A002A24D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1016FF5D1D7E015A002A24D4 /* testingSnapchatCamera */;
+			targetProxy = 1016FF7E1D7E015A002A24D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1016FF651D7E015A002A24D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1016FF661D7E015A002A24D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1016FF6A1D7E015A002A24D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1016FF6B1D7E015A002A24D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1016FF841D7E015A002A24D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1016FF851D7E015A002A24D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1016FF871D7E015A002A24D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testingSnapchatCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grigoryrudko.testingSnapchatCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1016FF881D7E015A002A24D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testingSnapchatCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grigoryrudko.testingSnapchatCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1016FF8A1D7E015A002A24D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testingSnapchatCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grigoryrudko.testingSnapchatCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testingSnapchatCamera.app/testingSnapchatCamera";
+			};
+			name = Debug;
+		};
+		1016FF8B1D7E015A002A24D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testingSnapchatCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grigoryrudko.testingSnapchatCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testingSnapchatCamera.app/testingSnapchatCamera";
+			};
+			name = Release;
+		};
+		1016FF8D1D7E015A002A24D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testingSnapchatCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grigoryrudko.testingSnapchatCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testingSnapchatCamera;
+			};
+			name = Debug;
+		};
+		1016FF8E1D7E015A002A24D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testingSnapchatCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grigoryrudko.testingSnapchatCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testingSnapchatCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1016FF591D7E015A002A24D4 /* Build configuration list for PBXProject "testingSnapchatCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1016FF841D7E015A002A24D4 /* Debug */,
+				1016FF851D7E015A002A24D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1016FF861D7E015A002A24D4 /* Build configuration list for PBXNativeTarget "testingSnapchatCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1016FF871D7E015A002A24D4 /* Debug */,
+				1016FF881D7E015A002A24D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1016FF891D7E015A002A24D4 /* Build configuration list for PBXNativeTarget "testingSnapchatCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1016FF8A1D7E015A002A24D4 /* Debug */,
+				1016FF8B1D7E015A002A24D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1016FF8C1D7E015A002A24D4 /* Build configuration list for PBXNativeTarget "testingSnapchatCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1016FF8D1D7E015A002A24D4 /* Debug */,
+				1016FF8E1D7E015A002A24D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1016FF561D7E015A002A24D4 /* Project object */;
+}
