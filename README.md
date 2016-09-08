@@ -4,7 +4,7 @@
 
 Submitted by: **Grigory Rudko**
 
-Time spent: **0.3** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
@@ -12,13 +12,16 @@ The following **required** functionality is complete:
 * [YES] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [COMING SOON ] Custom font
-* [COMING SOON] UI animations
-* [COMING SOON] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [YES] Custom font
+* [NOPE] UI animations
+* [YES] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
+INSTEAD OF ANIMATION I USE BLURRED PREVIEW FROM BACK CAMERA AS A BACKGROUND
 
 - [COMING SOON ] List anything else that you can get done to improve the app functionality!
+Status bar content is currently black, I want to change it to light (white). 
+Tap Gesture Recognizer is not working since it's in the first view, and all my controllers are one the 3d view. I'll try to solve it, but tbh I'm not sure Tap Gesture Recognizer is really needed here.
 
 ## Video Walkthrough 
 
@@ -31,6 +34,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+It took me some time to figure out how I can use preview from Back Camera as a background. 
 
 ## License
 
