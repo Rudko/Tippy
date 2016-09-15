@@ -1,4 +1,4 @@
-# Pre-work - *Tippy*
+# Pre-work - *Tippy Dark Mode*
 
 **Tippy** is a tip calculator application for iOS.
 
@@ -20,7 +20,6 @@ The following **additional** features are implemented:
 INSTEAD OF ANIMATION I USE BLURRED PREVIEW FROM BACK CAMERA AS A BACKGROUND
 
 - [COMING SOON ] List anything else that you can get done to improve the app functionality!
-Status bar content is currently black, I want to change it to light (white). 
 Tap Gesture Recognizer is not working since it's in the first view, and all my controllers are one the 3d view. I'll try to solve it, but tbh I'm not sure Tap Gesture Recognizer is really needed here.
 
 ## Video Walkthrough 
