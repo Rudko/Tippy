@@ -13,14 +13,15 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [YES] Custom font
-* [NOPE] UI animations
+* [YES] UI animations – for the Keyboard
 * [YES] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
-INSTEAD OF ANIMATION I USE BLURRED PREVIEW FROM BACK CAMERA AS A BACKGROUND
+- INSTEAD OF ANIMATION I USE BLURRED PREVIEW FROM BACK CAMERA AS A BACKGROUND
+- AFTER KEYBOARD DISAPPEARS YOU CAN SEE TOTAL AMOUNT DEVIDED FOR 2, 3, 4 AND 5 PERSONS 
 
 - [COMING SOON ] List anything else that you can get done to improve the app functionality!
-Tap Gesture Recognizer is not working since it's in the first view, and all my controllers are one the 3d view. I'll try to solve it, but tbh I'm not sure Tap Gesture Recognizer is really needed here.
+
 
 ## Video Walkthrough 
 
